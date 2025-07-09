@@ -1,2 +1,2 @@
 # avanturist
-Tourist agency web page
+Travel agency web page
