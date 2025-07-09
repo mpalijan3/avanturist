@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Turistička agencija "Avanturist"</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stranica turističke agencije Avanturist">
+    <link rel="icon" type="image/png" sizes="16x16" href="./multimedia/favicon.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header, nav, main, footer {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+        }
+
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #2980b9;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        hr {
+            margin: 20px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+
+        form div {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #2980b9;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1f5e8c;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Turistička agencija "Avanturist</h1>
+    </header>
+    <nav>
+        <a href="#o_nama">O nama</a>
+        <a href="#djelatnosti">Naše djelatnosti</a>
+        <a href="#kontakt">Kontakt</a>
+        <hr>
+    </nav>
+    <main>
+        <h2>Turistička Agencija "Avanturist"</h2>
+        <section id="o_nama">
+            <h3>O nama</h3>
+            <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare consequat nulla. Etiam sed purus purus. Nunc quis blandit nisl, in efficitur est. Aenean at scelerisque velit, in rhoncus sapien. Aliquam mattis metus ut est rhoncus efficitur. Proin nec tortor placerat, vulputate ante vel, tristique sapien. Proin eu pretium nibh, et eleifend orci. Sed consectetur non mauris at egestas. In hac habitasse platea dictumst. Morbi mattis venenatis dolor, ut vulputate tellus viverra a. Mauris quis leo interdum, blandit dui eu, lobortis metus.</p>
+            </div>
+            <div>
+            <img src="./multimedia/images/ljudi/grupe-ljudi/team.jpg" alt="Ugodna atmosfera u uredu">
+            </div>
+        </section>
+        <section id="djelatnosti">
+            <h3>Naše djelatnosti</h3>
+            <div>
+            <p>Donec viverra lectus elit, sit amet placerat lacus volutpat quis. Aliquam erat volutpat. Etiam consequat velit eget eleifend interdum. Proin id magna egestas, consequat quam vitae, sollicitudin justo. Ut eget libero euismod, pellentesque ipsum eu, imperdiet augue. Nam faucibus eros vitae faucibus efficitur. Nulla molestie lacus sed metus imperdiet, nec maximus turpis scelerisque. Integer tristique justo ante, in malesuada felis luctus eu. Duis fermentum, neque nec pretium tempor, dui urna aliquam nisl, sed tristique leo nisl aliquam sem.</p>
+            </div>
+            <div>
+            <img src="./multimedia/images/stvari/adventure.jpg" alt="Fotoaparat, putovnica i inspirativan natpis">
+            </div>
+        </section>
+        <section id="kontakt">
+            <h3>Kontakt</h3>
+            <form action="#" method="post">
+                <div>
+                    <label for="name">Vaše ime i prezime:</label>
+                    <input type="text" id="name" name="full_name" required>
+                </div>
+                <div>
+                    <label for="email">Email adresa:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Upišite poruku:</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Pošalji poruku</button>
+                </div>
+            </form>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <p>Avanturist &copy; 2025</p>
+        <a href="mailto:ivandicmilena@gmail.com">
+            <img src="./multimedia/images/logo/mail.png" alt="pošalji email">
+        </a>
+    </footer>
+</body>
+</html>
